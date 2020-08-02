@@ -179,10 +179,10 @@ public static $rateup = [ "earthborn metal" => [ "6s" => [ "nian" => 0.35,
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" src="../assets/jquery.min.js"></script>
-<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-<script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="../assets/style.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="/assets/style.css">
 <meta charset="UTF-8">
 <meta name="description" content="Simple Arknights Gacha Simulator">
 <meta name="keywords" content="arknights, arknights gacha">
