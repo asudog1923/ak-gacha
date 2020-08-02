@@ -1,13 +1,13 @@
 .imgg{
-width: 9%!important;
+ width: 9%!important;
 }
 .imgg-container{
-position: relative;
-}
+ position: relative;
+ }
 .width-check{
 display: none;
 }
-@media all and (max-width: 850px){
+@media all and (max-width: 600px) and (orientation: portrait){
     .width-check{
 	display: block;
 	color: white;
@@ -21,4 +21,7 @@ display: none;
 	.imgg, .imgg-container{
 	display: none;
 	}
+    .btn, .btn-primary{
+    display: none;
+    }
 }
