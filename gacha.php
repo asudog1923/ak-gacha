@@ -183,7 +183,12 @@ public static $rateup = [ "earthborn metal" => [ "6s" => [ "nian" => 0.35,
 <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
 <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="../assets/style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="description" content="Simple Arknights Gacha Simulator">
+<meta name="keywords" content="arknights, arknights gacha">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="ookamiiixd">
+<title>Simple Arknights Gacha Simulator</title>
 </head>
 <body>
 <div class="container-fullwidth">
