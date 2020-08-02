@@ -1,0 +1,24 @@
+.imgg{
+width: 9%!important;
+}
+.imgg-container{
+position: relative;
+}
+.width-check{
+display: none;
+}
+@media all and (max-width: 850px){
+    .width-check{
+	display: block;
+	color: white;
+	margin: 25%;
+	margin-top: 7.5%;
+	margin-bottom: 0;
+	}
+	body{
+	background-color: grey;
+	}
+	.imgg, .imgg-container{
+	display: none;
+	}
+}
