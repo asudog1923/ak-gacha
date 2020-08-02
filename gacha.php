@@ -182,7 +182,7 @@ public static $rateup = [ "earthborn metal" => [ "6s" => [ "nian" => 0.35,
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="assets/style.css">
 <meta charset="UTF-8">
 <meta name="description" content="Simple Arknights Gacha Simulator">
 <meta name="keywords" content="arknights, arknights gacha">
@@ -196,7 +196,7 @@ public static $rateup = [ "earthborn metal" => [ "6s" => [ "nian" => 0.35,
 <img src="https://www.pinclipart.com/picdir/big/210-2104646_please-rotate-your-device-clipart.png" class="width-check img-fluid mx-auto" width="90px"></img>
 <span class="width-check text-center">Small device detected.</span>
 <span class="width-check text-center">Please switch your orientation to landscape to view the page.</span>
-<span class="width-check text-center">This page require atleast 850pixels of width to work perfectly.</span>
+<span class="width-check text-center">This page require landscape view to work properly on small device.</span>
 </div>
 <div class="imgg-container text-center">
 <?php
