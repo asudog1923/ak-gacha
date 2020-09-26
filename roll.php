@@ -33,7 +33,6 @@
 		</div>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$(".preloader").fadeOut();
 			$('img').attr('draggable', 'false');
 			$('#gachaResult').hide();
 			$('#gachaBar').change(function(){
