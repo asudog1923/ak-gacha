@@ -61,7 +61,7 @@
 	</section>
 	</div>
 	<div id="zaBulokku">
-		<p>Minimum device width is 850 pixels and landscape view on mobile in order to give you the best experince, well yea the ui still suck tho...lol.</p>
+		<p>Minimum device width is 600 pixels and landscape view on mobile in order to give you the best experince, well yea the ui still suck tho...lol.</p>
 	</div>
 	<footer>
 		Find me on <a href="https://github.com/ookamiiixd/ak-gacha" target="_blank">github</a>.
