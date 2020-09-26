@@ -14,11 +14,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<div class="preloader">
-  			<div class="loading">
-    			<img src="assets/img/loader.gif" width="80">
- 			</div>
-		</div>
 		<div id="zaWarappa">
 		<div class="bag-bg container-fluid d-flex justify-content-center" id="gachaBag">
 			<div id="bagContainer">
