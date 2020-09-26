@@ -1,27 +1,215 @@
-.imgg{
- width: 9%!important;
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #fff;
+  }
+  .preloader .loading {
+	position: absolute;
+	left: 45%;
+	top: 45%;
 }
-.imgg-container{
- position: relative;
- }
-.width-check{
-display: none;
+
+.res-container {
+	cursor: pointer;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
 }
-@media all and (max-width: 600px) and (orientation: portrait){
-    .width-check{
+  
+  .res-container > div {
+	width: 100px;
+	min-height: 300px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+	padding-top: 50px;
+	border: 0.01em solid;
+	border-color: rgba(221,221,221,0.2);
+  }
+
+.banner{
+	min-height: 400px;
+}
+
+.op-img{
 	display: block;
-	color: white;
-	margin: 25%;
-	margin-top: 7.5%;
-	margin-bottom: 0;
-	}
-	body{
-	background-color: grey;
-	}
-	.imgg, .imgg-container{
+	width: 100%;
+	min-height: 180px;
+}
+
+.op-class{
+	display: block;
+	width: 55%;
+	text-align: center;
+	background-color: black;
+	margin: -15px auto 0 auto;
+	position: relative;
+}
+
+.three-stars{
+	background: rgb(87,87,87);
+	background: linear-gradient(0deg, rgba(87,87,87,1) 0%, rgba(62,62,62,1) 36%, rgba(0,0,0,1) 100%);
+}
+
+.four-stars{
+	background: rgb(105,73,173);
+	background: linear-gradient(0deg, rgba(105,73,173,1) 0%, rgba(221,220,220,1) 35%, rgba(105,73,173,1) 100%);
+}
+
+.five-stars{
+	background: rgb(247,206,107);
+	background: linear-gradient(0deg, rgba(247,206,107,1) 0%, rgba(221,220,220,1) 35%, rgba(247,206,107,1) 100%);
+}
+
+.six-stars{
+	background: rgb(255,162,38);
+	background: linear-gradient(0deg, rgba(255,162,38,1) 0%, rgba(221,220,220,1) 35%, rgba(255,162,38,1) 100%);
+}
+
+.gacha-x1 {
+	background:linear-gradient(to bottom, #f5f5f5 5%, #9e9e9e 100%);
+	background-color:#f5f5f5;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Times New Roman;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 30px;
+	text-decoration:none;
+	margin-top: -80px;
+	margin-right: 10em;
+	position: relative;
+}
+  .gacha-x1:hover {
+	background:linear-gradient(to bottom, #9e9e9e 5%, #f5f5f5 100%);
+	background-color:#9e9e9e;
+	color: #000000;
+	text-decoration:none;
+}
+  .gacha-x1:active {
+	position:relative;
+	top:1px;
+}
+
+.gacha-x10 {
+	background:linear-gradient(to bottom, #d4b208 5%, #b89900 100%);
+	background-color:#d4b208;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Times New Roman;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 30px;
+	text-decoration:none;
+	margin: -80px 10px;
+	position: relative;
+}
+  .gacha-x10:hover {
+	background:linear-gradient(to bottom, #b89900 5%, #d4b208 100%);
+	background-color:#b89900;
+	color: #000000;
+	text-decoration:none;
+}
+  .gacha-x10:active {
+	position:relative;
+	top:1px;
+}
+
+
+.bag{
+	width: 600px;
+}
+
+  .bag-bg{
+	padding-top: 92px;
+	min-height: 400px;
+	background: rgb(108,108,108);
+	background: linear-gradient(90deg, rgba(108,108,108,1) 0%, rgba(55,55,55,1) 35%, rgba(41,41,41,1) 100%);
+  }
+
+
+input[type='range'] {
+	-webkit-appearance: none;
+	background-color: #2b2b2b;
+	height: 12px;
+	overflow: hidden;
+	width: 450px;
+	outline: none;
+	display: flex;
+	margin-left: 3.7em;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+	-webkit-appearance: none;
+	height: 12px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background: #333;
+	border-radius: 0px;
+	box-shadow: -235px 0 0 225px #212121;
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	border: 0;
+  }
+  
+  input[type='range']::-moz-range-thumb {
+	background: #333;
+	border-radius: 0px;
+	box-shadow: -1010px 0 0 1000px #212121;
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	border: 0;
+  }
+  
+  input[type="range"]::-moz-range-track {
+	background-color: #2b2b2b;
+  }
+  input[type="range"]::-moz-range-progress {
+	background-color: #212121;
+	height: 12px;
+  }
+  input[type="range"]::-ms-fill-upper {
+	background-color: #2b2b2b;
+  }
+  input[type="range"]::-ms-fill-lower {
+	background-color: #212121;
+  }
+
+#Summary{
+	border: 1px solid black;
+	background-color: #212121;
+	color: #ffffff;
+	min-height: 220px;
+}
+
+#zaBulokku{
 	display: none;
+}
+
+@media only screen and (max-width:850px){
+    #zaWarappa{
+        display: none;
 	}
-    .btn, .btn-primary{
-    display: none;
-    }
+	#zaBulokku{
+		display: block;
+	}
+}
+
+@media only screen and (orientation: portrait){
+	#zaWarappa{
+        display: none;
+	}
+	#zaBulokku{
+		display: block;
+	}
 }
