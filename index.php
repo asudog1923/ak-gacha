@@ -29,7 +29,6 @@
 	</section>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$(".preloader").fadeOut();
 			$('img').attr('draggable', 'false');
 		});
 	</script>
