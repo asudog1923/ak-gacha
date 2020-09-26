@@ -181,17 +181,8 @@ input[type='range'] {
 	display: none;
 }
 
-@media only screen and (max-width:850px){
+@media all and (max-width:600px) and (orientation: portrait){
     #zaWarappa{
-        display: none;
-	}
-	#zaBulokku{
-		display: block;
-	}
-}
-
-@media only screen and (orientation: portrait){
-	#zaWarappa{
         display: none;
 	}
 	#zaBulokku{
