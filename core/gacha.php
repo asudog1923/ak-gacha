@@ -3,14 +3,15 @@
 Class Gacha{
 	
 	public $rareconv = [	
-							"6s" => "six-stars",
-		 					"5s" => "five-stars", 
-							"4s" => "four-stars",
-							"3s" => "three-stars"
-						];
+		"6s" => "six-stars",
+		"5s" => "five-stars", 
+		"4s" => "four-stars",
+		"3s" => "three-stars"
+	];
 	public $ops;
 
 	public function __construct(){
+		$host = dirname(dirname(__FILE__));
 		if(!isset($_SESSION)){
 			session_start();
 		}
@@ -23,11 +24,9 @@ Class Gacha{
 			$_SESSION['last_pity'] = NULL;
 		}
 		if(!isset($_SESSION['rate'])){
-			$host = dirname(dirname(__FILE__));
 			$get = file_get_contents($host.'/json/rate.json');
 			$_SESSION['rate'] = json_decode($get, TRUE);
 		}
-		$host = $host = dirname(dirname(__FILE__));
 		$get = file_get_contents($host.'/json/operator.json');
 		$this->ops = json_decode($get, TRUE);
 	}
@@ -78,8 +77,8 @@ Class Gacha{
 
 	public function singlePull(){
 		$res = $this->doGacha();
-		echo '	<div class="'.$this->rareconv[$res[3]].'">
-					<img src="'.$res[2].'" class="img-fluid op-img" alt="'.$res[0].'">
+		echo '	<div class="wrap '.$this->rareconv[$res[4]].'">
+					<div class="operator" style="background-position: '.$res[3].'; background-image: url(\''.$res[2].'\');"></div>
 					<img src="assets/img/class/'.$res[1].'.png" class="op-class">
 				</div>
 				'."\n";
@@ -89,8 +88,8 @@ Class Gacha{
 		$i=1;
 		while($i <= 10){
 			$res = $this->doGacha();
-			echo '	<div class="'.$this->rareconv[$res[3]].'">
-						<img src="'.$res[2].'" class="img-fluid op-img" alt="'.$res[0].'">
+			echo '	<div class="wrap '.$this->rareconv[$res[4]].'">
+						<div class="operator" style="background-position: '.$res[3].'; background-image: url(\''.$res[2].'\');"></div>
 						<img src="assets/img/class/'.$res[1].'.png" class="op-class">
 					</div>
 					'."\n";
