@@ -1,0 +1,646 @@
+{
+    "6s": {
+      "siege": [
+        "siege",
+        "vanguard",
+        "assets\/img\/characters\/siege.png",
+        "50% 3%"
+      ],
+      "shining": [
+        "shining",
+        "medic",
+        "assets\/img\/characters\/shining.png",
+        "50% 3%"
+      ],
+      "chen": [
+        "chen",
+        "guard",
+        "assets\/img\/characters\/chen.png",
+        "50% 3%"
+      ],
+      "silverash": [
+        "silverash",
+        "guard",
+        "assets\/img\/characters\/silverash.png",
+        "51% -3%"
+      ],
+      "hoshiguma": [
+        "hoshiguma",
+        "defender",
+        "assets\/img\/characters\/hoshiguma.png",
+        "53% 5%"
+      ],
+      "hellagur": [
+        "hellagur",
+        "guard",
+        "assets\/img\/characters\/hellagur.png",
+        "50% 0%"
+      ],
+      "mostima": [
+        "mostima",
+        "caster",
+        "assets\/img\/characters\/mostima.png",
+        "55% 2%"
+      ],
+      "blaze": [
+        "blaze",
+        "guard",
+        "assets\/img\/characters\/blaze.png",
+        "40% 7%"
+      ],
+      "ifrit": [
+        "ifrit",
+        "caster",
+        "assets\/img\/characters\/ifrit.png",
+        "47% -2%"
+      ],
+      "eyjafjalla": [
+        "eyjafjalla",
+        "caster",
+        "assets\/img\/characters\/eyjafjalla.png",
+        "50% 3%"
+      ],
+      "exusiai": [
+        "exusiai",
+        "sniper",
+        "assets\/img\/characters\/exusiai.png",
+        "50% 3%"
+      ],
+      "saria": [
+        "saria",
+        "defender",
+        "assets\/img\/characters\/saria.png",
+        "49% -3%"
+      ],
+      "skadi": [
+        "skadi",
+        "guard",
+        "assets\/img\/characters\/skadi.png",
+        "51% 0%"
+      ],
+      "nightingale": [
+        "nightingale",
+        "medic",
+        "assets\/img\/characters\/nightingale.png",
+        "50% 18%"
+      ],
+      "magallan": [
+        "magallan",
+        "supporter",
+        "assets\/img\/characters\/magallan.png",
+        "49% -3%"
+      ],
+      "schwarz": [
+        "schwarz",
+        "sniper",
+        "assets\/img\/characters\/scwarz.png",
+        "50% -2%"
+      ],
+      "angelina": [
+        "angelina",
+        "supporter",
+        "assets\/img\/characters\/angelina.png",
+        "43% 0%"
+      ],
+      "aak": [
+        "aak",
+        "specialist",
+        "assets\/img\/characters\/aak.png",
+        "52% 3%"
+      ],
+      "nian": [
+        "nian",
+        "defender",
+        "assets\/img\/characters\/nian.png",
+        "48% 14%"
+      ],
+      "ceobe": [
+        "ceobe",
+        "caster",
+        "assets\/img\/characters\/ceobe.png",
+        "52% 3%"
+      ],
+      "bagpipe": [
+        "bagpipe",
+        "vanguard",
+        "assets\/img\/characters\/bagpipe.png",
+        "53% 18%"
+      ],
+      "poca": [
+        "poca",
+        "sniper",
+        "assets\/img\/characters\/poca.png",
+        "51% 13%"
+      ]
+    },
+    "5s": {
+      "lappland": [
+        "lappland",
+        "guard",
+        "assets\/img\/characters\/lappland.png",
+        "50% 0%"
+      ],
+      "texas": [
+        "texas",
+        "vanguard",
+        "assets\/img\/characters\/texas.png",
+        "51% 0%"
+      ],
+      "ptilopsis": [
+        "ptilopsis",
+        "medic",
+        "assets\/img\/characters\/ptilopsis.png",
+        "53% 3%"
+      ],
+      "warfarin": [
+        "warfarin",
+        "medic",
+        "assets\/img\/characters\/warfarin.png",
+        "54% -2%"
+      ],
+      "zima": [
+        "zima",
+        "vanguard",
+        "assets\/img\/characters\/zima.png",
+        "50% 4%"
+      ],
+      "nearl": [
+        "nearl",
+        "defender",
+        "assets\/img\/characters\/nearl.png",
+        "44% 2%"
+      ],
+      "silence": [
+        "silence",
+        "medic",
+        "assets\/img\/characters\/silence.png",
+        "50% 4%"
+      ],
+      "broca": [
+        "broca",
+        "guard",
+        "assets\/img\/characters\/broca.png",
+        "52% -2%"
+      ],
+      "reed": [
+        "reed",
+        "vanguard",
+        "assets\/img\/characters\/reed.png",
+        "42% 22%"
+      ],
+      "nightmare": [
+        "nightmare",
+        "caster",
+        "assets\/img\/characters\/nightmare.png",
+        "51% 7%"
+      ],
+      "skyfire": [
+        "skyfire",
+        "caster",
+        "assets\/img\/characters\/skyfire.png",
+        "54% 0%"
+      ],
+      "projektred": [
+        "projektred",
+        "specialist",
+        "assets\/img\/characters\/projektred.png",
+        "54% 5%"
+      ],
+      "manticore": [
+        "manticore",
+        "specialist",
+        "assets\/img\/characters\/manticore.png",
+        "45% 15%"
+      ],
+      "cliffheart": [
+        "cliffheart",
+        "specialist",
+        "assets\/img\/characters\/cliffheart.png",
+        "49% -2%"
+      ],
+      "provence": [
+        "provence",
+        "sniper",
+        "assets\/img\/characters\/provence.png",
+        "51% 4%"
+      ],
+      "feater": [
+        "feater",
+        "specialist",
+        "assets\/img\/characters\/feater.png",
+        "51% 4%"
+      ],
+      "bluepoison": [
+        "bluepoison",
+        "sniper",
+        "assets\/img\/characters\/bluepoison.png",
+        "49% 4%"
+      ],
+      "firewatch": [
+        "firewatch",
+        "sniper",
+        "assets\/img\/characters\/firewatch.png",
+        "48% 2%"
+      ],
+      "meteorite": [
+        "meteorite",
+        "sniper",
+        "assets\/img\/characters\/meteorite.png",
+        "50% -2%"
+      ],
+      "platinum": [
+        "platinum",
+        "sniper",
+        "assets\/img\/characters\/platinum.png",
+        "52% 3%"
+      ],
+      "pramanix": [
+        "pramanix",
+        "supporter",
+        "assets\/img\/characters\/pramanix.png",
+        "57% 0%"
+      ],
+      "istina": [
+        "istina",
+        "supporter",
+        "assets\/img\/characters\/istina.png",
+        "51% 2%"
+      ],
+      "mayer": [
+        "mayer",
+        "supporter",
+        "assets\/img\/characters\/mayer.png",
+        "52% 8%"
+      ],
+      "sora": [
+        "sora",
+        "supporter",
+        "assets\/img\/characters\/sora.png",
+        "50% 0%"
+      ],
+      "franka": [
+        "franka",
+        "guard",
+        "assets\/img\/characters\/franka.png",
+        "46% 3%"
+      ],
+      "specter": [
+        "specter",
+        "guard",
+        "assets\/img\/characters\/specter.png",
+        "58% 4%"
+      ],
+      "liskarm": [
+        "liskarm",
+        "defender",
+        "assets\/img\/characters\/liskarm.png",
+        "51% 4%"
+      ],
+      "croissant": [
+        "croissant",
+        "defender",
+        "assets\/img\/characters\/croissant.png",
+        "52% 0%"
+      ],
+      "swire": [
+        "swire",
+        "guard",
+        "assets\/img\/characters\/swire.png",
+        "50% -2%"
+      ],
+      "glaucus": [
+        "glaucus",
+        "supporter",
+        "assets\/img\/characters\/glaucus.png",
+        "53% 24%"
+      ],
+      "greythroat": [
+        "greythroat",
+        "sniper",
+        "assets\/img\/characters\/greythroat.png",
+        "50% 0%"
+      ],
+      "waaifu": [
+        "waaifu",
+        "specialist",
+        "assets\/img\/characters\/waaifu.png",
+        "53% -2%"
+      ],
+      "executor": [
+        "executor",
+        "sniper",
+        "assets\/img\/characters\/executor.png",
+        "48% -2%"
+      ],
+      "hung": [
+        "hung",
+        "defender",
+        "assets\/img\/characters\/hung.png",
+        "50% 0%"
+      ],
+      "leizi": [
+        "leizi",
+        "caster",
+        "assets\/img\/characters\/leizi.png",
+        "48% 12%"
+      ],
+      "sesa": [
+        "sesa",
+        "sniper",
+        "assets\/img\/characters\/sesa.png",
+        "43% 8%"
+      ]
+    },
+    "4s": {
+      "gavial": [
+        "gavial",
+        "medic",
+        "assets\/img\/characters\/gavial.png",
+        "54% 0%"
+      ],
+      "perfumer": [
+        "perfumer",
+        "medic",
+        "assets\/img\/characters\/perfumer.png",
+        "58% 5%"
+      ],
+      "scavanger": [
+        "scavanger",
+        "vanguard",
+        "assets\/img\/characters\/scavanger.png",
+        "58% 1%"
+      ],
+      "vigna": [
+        "vigna",
+        "vanguard",
+        "assets\/img\/characters\/vigna.png",
+        "41% 5%"
+      ],
+      "myrrh": [
+        "myrrh",
+        "medic",
+        "assets\/img\/characters\/myrrh.png",
+        "52% 4%"
+      ],
+      "haze": [
+        "haze",
+        "caster",
+        "assets\/img\/characters\/haze.png",
+        "53% 4%"
+      ],
+      "gitano": [
+        "gitano",
+        "caster",
+        "assets\/img\/characters\/gitano.png",
+        "52% 4%"
+      ],
+      "rope": [
+        "rope",
+        "specialist",
+        "assets\/img\/characters\/rope.png",
+        "52% 8%"
+      ],
+      "gravel": [
+        "gravel",
+        "specialist",
+        "assets\/img\/characters\/gravel.png",
+        "47% 2%"
+      ],
+      "shaw": [
+        "shaw",
+        "specialist",
+        "assets\/img\/characters\/shaw.png",
+        "46% 2%"
+      ],
+      "shirayuki": [
+        "shirayuki",
+        "sniper",
+        "assets\/img\/characters\/shirayuki.png",
+        "42% 8%"
+      ],
+      "meteor": [
+        "meteor",
+        "sniper",
+        "assets\/img\/characters\/meteor.png",
+        "53% 6%"
+      ],
+      "jessica": [
+        "jessica",
+        "sniper",
+        "assets\/img\/characters\/jessica.png",
+        "49% 1%"
+      ],
+      "deepcolor": [
+        "deepcolor",
+        "supporter",
+        "assets\/img\/characters\/deepcolor.png",
+        "48% 5%"
+      ],
+      "earthspirit": [
+        "earthspirit",
+        "supporter",
+        "assets\/img\/characters\/earthspirit.png",
+        "49% 9%"
+      ],
+      "dobbermann": [
+        "dobbermann",
+        "guard",
+        "assets\/img\/characters\/dobbermann.png",
+        "53% 5%"
+      ],
+      "beehunter": [
+        "beehunter",
+        "guard",
+        "assets\/img\/characters\/beehunter.png",
+        "49% -2%"
+      ],
+      "frostleaf": [
+        "frostleaf",
+        "guard",
+        "assets\/img\/characters\/frostleaf.png",
+        "43% 28%"
+      ],
+      "mousse": [
+        "mousse",
+        "guard",
+        "assets\/img\/characters\/mousse.png",
+        "50% 4%"
+      ],
+      "matoimaru": [
+        "matoimaru",
+        "guard",
+        "assets\/img\/characters\/matoimaru.png",
+        "56% 6%"
+      ],
+      "cuora": [
+        "cuora",
+        "defender",
+        "assets\/img\/characters\/cuora.png",
+        "61% 2%"
+      ],
+      "gummy": [
+        "gummy",
+        "defender",
+        "assets\/img\/characters\/gummy.png",
+        "50% 0%"
+      ],
+      "matterhorn": [
+        "matterhorn",
+        "defender",
+        "assets\/img\/characters\/matterhorn.png",
+        "49% 3%"
+      ],
+      "greyy": [
+        "greyy",
+        "caster",
+        "assets\/img\/characters\/greyy.png",
+        "45% -1%"
+      ],
+      "sussurro": [
+        "sussurro",
+        "medic",
+        "assets\/img\/characters\/sussurro.png",
+        "48% 5%"
+      ],
+      "myrtle": [
+        "myrtle",
+        "vanguard",
+        "assets\/img\/characters\/myrtle.png",
+        "51% 26%"
+      ],
+      "vermeil": [
+        "vermeil",
+        "sniper",
+        "assets\/img\/characters\/vermeil.png",
+        "51% 4%"
+      ],
+      "may": [
+        "may",
+        "sniper",
+        "assets\/img\/characters\/may.png",
+        "40% 4%"
+      ],
+      "ambriel": [
+        "ambriel",
+        "sniper",
+        "assets\/img\/characters\/ambriel.png",
+        "51% 4%"
+      ],
+      "utage": [
+        "utage",
+        "guard",
+        "assets\/img\/characters\/utage.png",
+        "51% 0%"
+      ],
+      "podenco": [
+        "podenco",
+        "supporter",
+        "assets\/img\/characters\/podenco.png",
+        "51% 0%"
+      ]
+    },
+    "3s": {
+      "ansel": [
+        "ansel",
+        "medic",
+        "assets\/img\/characters\/ansel.png",
+        "51% 6%"
+      ],
+      "midnight": [
+        "midnight",
+        "guard",
+        "assets\/img\/characters\/midnight.png",
+        "51% 0%"
+      ],
+      "fang": [
+        "fang",
+        "vanguard",
+        "assets\/img\/characters\/fang.png",
+        "47% 6%"
+      ],
+      "vanilla": [
+        "vanilla",
+        "vanguard",
+        "assets\/img\/characters\/vanilla.png",
+        "72% -4%"
+      ],
+      "plume": [
+        "plum",
+        "vanguard",
+        "assets\/img\/characters\/plume.png",
+        "50% 17%"
+      ],
+      "hibiscus": [
+        "hibiscus",
+        "medic",
+        "assets\/img\/characters\/hibiscus.png",
+        "51% 4%"
+      ],
+      "catapult": [
+        "catapult",
+        "sniper",
+        "assets\/img\/characters\/catapult.png",
+        "50% 4%"
+      ],
+      "adnachiel": [
+        "adnachiel",
+        "sniper",
+        "assets\/img\/characters\/adnachiel.png",
+        "52% 7%"
+      ],
+      "lava": [
+        "lava",
+        "caster",
+        "assets\/img\/characters\/lava.png",
+        "51% 4%"
+      ],
+      "steward": [
+        "steward",
+        "caster",
+        "assets\/img\/characters\/steward.png",
+        "52% 6%"
+      ],
+      "kroos": [
+        "kroos",
+        "sniper",
+        "assets\/img\/characters\/kroos.png",
+        "46% 3%"
+      ],
+      "orchid": [
+        "orchid",
+        "supporter",
+        "assets\/img\/characters\/orchid.png",
+        "47% 4%"
+      ],
+      "melantha": [
+        "melantha",
+        "guard",
+        "assets\/img\/characters\/melantha.png",
+        "44% 4%"
+      ],
+      "beagle": [
+        "beagle",
+        "defender",
+        "assets\/img\/characters\/beagle.png",
+        "48% 4%"
+      ],
+      "cardigan": [
+        "cardigan",
+        "defender",
+        "assets\/img\/characters\/cardigan.png",
+        "49% 4%"
+      ],
+      "popukar": [
+        "popukar",
+        "guard",
+        "assets\/img\/characters\/popukar.png",
+        "64% 2%"
+      ],
+      "spot": [
+        "spot",
+        "defender",
+        "assets\/img\/characters\/spot.png",
+        "49% 0%"
+      ]
+    }
+  }

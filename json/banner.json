@@ -1,0 +1,48 @@
+{
+    "newbie_banner": {
+       "6s": [
+          {
+             "normal": 0,
+             "featured": 1
+          },
+          [
+             "siege",
+             "shining",
+             "angelina",
+             "silverash",
+             "exusiai",
+             "hoshiguma"
+          ]
+       ],
+       "5s": [
+          {
+             "normal": 1,
+             "featured": 0
+          },
+          []
+       ]
+    },
+    "standard_pool_21_en": {
+       "6s": [
+          {
+             "normal": 0.5,
+             "featured": 0.5
+          },
+          [
+             "ifrit",
+             "nightingale"
+          ]
+       ],
+       "5s": [
+          {
+             "normal": 0.5,
+             "featured": 0.5
+          },
+          [
+             "silence",
+             "cliffheart",
+             "waaifu"
+          ]
+       ]
+    }
+ }

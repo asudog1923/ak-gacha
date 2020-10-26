@@ -1,27 +1,287 @@
-.imgg{
- width: 9%!important;
+/**
+* Arknights Gacha
+*
+*/
+body main {
+    display: block;
+    overflow-x: hidden;
 }
-.imgg-container{
- position: relative;
- }
-.width-check{
-display: none;
+
+.wrap {
+    width: 100%;
+    height: 500px;
+    padding-top: 25px;
+    border-right: 1px solid #000;
 }
-@media all and (max-width: 600px) and (orientation: portrait){
-    .width-check{
-	display: block;
-	color: white;
-	margin: 25%;
-	margin-top: 7.5%;
-	margin-bottom: 0;
-	}
-	body{
-	background-color: grey;
-	}
-	.imgg, .imgg-container{
-	display: none;
-	}
-    .btn, .btn-primary{
+
+.operator {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 375px;
+}
+
+.op-class {
+    display: block;
+    width: 55%;
+    text-align: center;
+    background-color: #000;
+    margin: -15px auto 0 auto;
+}
+
+#banner-wrapper {
+    background: linear-gradient(323deg, #454545, #818080);
+    background-size: 400% 400%;
+
+    -webkit-animation: back 21s ease infinite;
+    -moz-animation: back 21s ease infinite;
+    animation: back 21s ease infinite;
+}
+
+@-webkit-keyframes back {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes back {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes back {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+.banner {
+    max-width: 800px;
+}
+
+.banner #bloader {
     display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 25px 0 25px 0;
+}
+
+.banner img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.roll1x {
+    position: relative;
+    top: -3rem;
+    margin-right: 10px;
+    outline: none;
+    padding: 10px;
+    color: #000;
+    background-color: #bbbbbb;
+}
+
+.roll1x:hover,
+.roll1x:active,
+.roll1x:focus {
+    text-decoration: none;
+    box-shadow: none;
+    color: #000;
+    background-color: #777777;
+}
+
+.roll10x {
+    position: relative;
+    top: -3rem;
+    margin-right: 10px;
+    outline: none;
+    padding: 10px;
+    color: #000;
+    background-color: #d3b81f;
+}
+
+.roll10x:hover,
+.roll10x:active,
+.roll10x:focus {
+    text-decoration: none;
+    color: #000;
+    background-color: #ac9725;
+}
+
+.summary {
+    width: 100%;
+    height: auto;
+    color: #000;
+    background-color: #bdbdbd;
+    padding: 10px 5px 10px 5px;
+}
+
+.result {
+    display: none;
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+#result {
+    cursor: pointer;
+    display: none;
+}
+
+.three-stars {
+    background: rgb(58,56,60);
+    background: -moz-linear-gradient(180deg, rgba(58,56,60,1) 4%, rgba(87,83,91,1) 13%, rgba(77,76,79,1) 65%);
+    background: -webkit-linear-gradient(180deg, rgba(58,56,60,1) 4%, rgba(87,83,91,1) 13%, rgba(77,76,79,1) 65%);
+    background: linear-gradient(180deg, rgba(58,56,60,1) 4%, rgba(87,83,91,1) 13%, rgba(77,76,79,1) 65%);
+}
+
+.four-stars {
+    background: rgb(143,86,222);
+    background: -moz-linear-gradient(180deg, rgba(143,86,222,1) 4%, rgba(211,183,237,1) 13%, rgba(163,115,232,1) 65%);
+    background: -webkit-linear-gradient(180deg, rgba(143,86,222,1) 4%, rgba(211,183,237,1) 13%, rgba(163,115,232,1) 65%);
+    background: linear-gradient(180deg, rgba(143,86,222,1) 4%, rgba(211,183,237,1) 13%, rgba(163,115,232,1) 65%);
+}
+
+.five-stars {
+    background: rgb(238,214,100);
+    background: -moz-linear-gradient(180deg, rgba(238,214,100,1) 1%, rgba(255,255,255,1) 13%, rgba(241,235,164,1) 94%);
+    background: -webkit-linear-gradient(180deg, rgba(238,214,100,1) 1%, rgba(255,255,255,1) 13%, rgba(241,235,164,1) 94%);
+    background: linear-gradient(180deg, rgba(238,214,100,1) 1%, rgba(255,255,255,1) 13%, rgba(241,235,164,1) 94%);
+}
+
+.six-stars {
+	background: rgb(240,156,20);
+    background: -moz-linear-gradient(180deg, rgba(240,156,20,1) 4%, rgba(255,223,141,1) 12%, rgba(250,194,52,1) 65%);
+    background: -webkit-linear-gradient(180deg, rgba(240,156,20,1) 4%, rgba(255,223,141,1) 12%, rgba(250,194,52,1) 65%);
+    background: linear-gradient(180deg, rgba(240,156,20,1) 4%, rgba(255,223,141,1) 12%, rgba(250,194,52,1) 65%);
+}
+
+.bag {
+	width: 600px;
+}
+
+.bag-bg {
+	padding-top: 92px;
+	min-height: 400px;
+	background: rgb(108,108,108);
+	background: linear-gradient(90deg, rgba(108,108,108,1) 0%, rgba(55,55,55,1) 35%, rgba(41,41,41,1) 100%);
+}
+
+
+input[type='range'] {
+	-webkit-appearance: none;
+	background-color: #2b2b2b;
+	height: 12px;
+	overflow: hidden;
+	width: 450px;
+	outline: none;
+	display: flex;
+	margin-left: 3.7em;
+}
+  
+  input[type='range']::-webkit-slider-runnable-track {
+	-webkit-appearance: none;
+	height: 12px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background: #333;
+	border-radius: 0px;
+	box-shadow: -235px 0 0 225px #212121;
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	border: 0;
+  }
+  
+  input[type='range']::-moz-range-thumb {
+	background: #333;
+	border-radius: 0px;
+	box-shadow: -1010px 0 0 1000px #212121;
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	border: 0;
+  }
+  
+  input[type="range"]::-moz-range-track {
+	background-color: #2b2b2b;
+  }
+  input[type="range"]::-moz-range-progress {
+	background-color: #212121;
+	height: 12px;
+  }
+  input[type="range"]::-ms-fill-upper {
+	background-color: #2b2b2b;
+  }
+  input[type="range"]::-ms-fill-lower {
+	background-color: #212121;
+  }
+
+.loader {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.loader div img {
+    position: absolute;
+    top: 40%;
+}
+
+.block {
+    display: none;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+.block div {
+    padding-top: 25px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    display: block;
+    color: #fff;
+    background-color: #9e9e9e;
+    padding: 5px;
+}
+
+@media (max-width: 960px){
+    .d-flex {
+        zoom: 0.65;
+    }
+
+    .wrap {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .nav-item a {
+        font-size: 0;
+    }
+
+    .nav-item a:hover {
+        font-size: 16px;
+    }
+
+    .nav-item a i {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) and (orientation: portrait){
+    .block {
+        display: block;
+    }
+
+    main {
+        visibility: hidden;
     }
 }

@@ -1,0 +1,646 @@
+{
+    "6s": {
+      "siege": [
+        "siege",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/siege.png",
+        "50% 3%"
+      ],
+      "shining": [
+        "shining",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/shining.png",
+        "50% 3%"
+      ],
+      "chen": [
+        "chen",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/chen.png",
+        "50% 3%"
+      ],
+      "silverash": [
+        "silverash",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/silverash.png",
+        "51% -3%"
+      ],
+      "hoshiguma": [
+        "hoshiguma",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/hoshiguma.png",
+        "53% 5%"
+      ],
+      "hellagur": [
+        "hellagur",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/hellagur.png",
+        "50% 0%"
+      ],
+      "mostima": [
+        "mostima",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/mostima.png",
+        "55% 2%"
+      ],
+      "blaze": [
+        "blaze",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/blaze.png",
+        "40% 7%"
+      ],
+      "ifrit": [
+        "ifrit",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/ifrit.png",
+        "47% -2%"
+      ],
+      "eyjafjalla": [
+        "eyjafjalla",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/eyjafjalla.png",
+        "50% 3%"
+      ],
+      "exusiai": [
+        "exusiai",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/exusiai.png",
+        "50% 3%"
+      ],
+      "saria": [
+        "saria",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/saria.png",
+        "49% -3%"
+      ],
+      "skadi": [
+        "skadi",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/skadi.png",
+        "51% 0%"
+      ],
+      "nightingale": [
+        "nightingale",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/nightingale.png",
+        "50% 18%"
+      ],
+      "magallan": [
+        "magallan",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/magallan.png",
+        "49% -3%"
+      ],
+      "schwarz": [
+        "schwarz",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/scwarz.png",
+        "50% -2%"
+      ],
+      "angelina": [
+        "angelina",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/angelina.png",
+        "43% 0%"
+      ],
+      "aak": [
+        "aak",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/aak.png",
+        "52% 3%"
+      ],
+      "nian": [
+        "nian",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/nian.png",
+        "48% 14%"
+      ],
+      "ceobe": [
+        "ceobe",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/ceobe.png",
+        "52% 3%"
+      ],
+      "bagpipe": [
+        "bagpipe",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/bagpipe.png",
+        "53% 18%"
+      ],
+      "poca": [
+        "poca",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/poca.png",
+        "51% 13%"
+      ]
+    },
+    "5s": {
+      "lappland": [
+        "lappland",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/lappland.png",
+        "50% 0%"
+      ],
+      "texas": [
+        "texas",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/texas.png",
+        "51% 0%"
+      ],
+      "ptilopsis": [
+        "ptilopsis",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/ptilopsis.png",
+        "53% 3%"
+      ],
+      "warfarin": [
+        "warfarin",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/warfarin.png",
+        "54% -2%"
+      ],
+      "zima": [
+        "zima",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/zima.png",
+        "50% 4%"
+      ],
+      "nearl": [
+        "nearl",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/nearl.png",
+        "44% 2%"
+      ],
+      "silence": [
+        "silence",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/silence.png",
+        "50% 4%"
+      ],
+      "broca": [
+        "broca",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/broca.png",
+        "52% -2%"
+      ],
+      "reed": [
+        "reed",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/reed.png",
+        "42% 22%"
+      ],
+      "nightmare": [
+        "nightmare",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/nightmare.png",
+        "51% 7%"
+      ],
+      "skyfire": [
+        "skyfire",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/skyfire.png",
+        "54% 0%"
+      ],
+      "projektred": [
+        "projektred",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/projektred.png",
+        "54% 5%"
+      ],
+      "manticore": [
+        "manticore",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/manticore.png",
+        "45% 15%"
+      ],
+      "cliffheart": [
+        "cliffheart",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/cliffheart.png",
+        "49% -2%"
+      ],
+      "provence": [
+        "provence",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/provence.png",
+        "51% 4%"
+      ],
+      "feater": [
+        "feater",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/feater.png",
+        "51% 4%"
+      ],
+      "bluepoison": [
+        "bluepoison",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/bluepoison.png",
+        "49% 4%"
+      ],
+      "firewatch": [
+        "firewatch",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/firewatch.png",
+        "48% 2%"
+      ],
+      "meteorite": [
+        "meteorite",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/meteorite.png",
+        "50% -2%"
+      ],
+      "platinum": [
+        "platinum",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/platinum.png",
+        "52% 3%"
+      ],
+      "pramanix": [
+        "pramanix",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/pramanix.png",
+        "57% 0%"
+      ],
+      "istina": [
+        "istina",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/istina.png",
+        "51% 2%"
+      ],
+      "mayer": [
+        "mayer",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/mayer.png",
+        "52% 8%"
+      ],
+      "sora": [
+        "sora",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/sora.png",
+        "50% 0%"
+      ],
+      "franka": [
+        "franka",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/franka.png",
+        "46% 3%"
+      ],
+      "specter": [
+        "specter",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/specter.png",
+        "58% 4%"
+      ],
+      "liskarm": [
+        "liskarm",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/liskarm.png",
+        "51% 4%"
+      ],
+      "croissant": [
+        "croissant",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/croissant.png",
+        "52% 0%"
+      ],
+      "swire": [
+        "swire",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/swire.png",
+        "50% -2%"
+      ],
+      "glaucus": [
+        "glaucus",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/glaucus.png",
+        "53% 24%"
+      ],
+      "greythroat": [
+        "greythroat",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/greythroat.png",
+        "50% 0%"
+      ],
+      "waaifu": [
+        "waaifu",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/waaifu.png",
+        "53% -2%"
+      ],
+      "executor": [
+        "executor",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/executor.png",
+        "48% -2%"
+      ],
+      "hung": [
+        "hung",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/hung.png",
+        "50% 0%"
+      ],
+      "leizi": [
+        "leizi",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/leizi.png",
+        "48% 12%"
+      ],
+      "sesa": [
+        "sesa",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/sesa.png",
+        "43% 8%"
+      ]
+    },
+    "4s": {
+      "gavial": [
+        "gavial",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/gavial.png",
+        "54% 0%"
+      ],
+      "perfumer": [
+        "perfumer",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/perfumer.png",
+        "58% 5%"
+      ],
+      "scavanger": [
+        "scavanger",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/scavanger.png",
+        "58% 1%"
+      ],
+      "vigna": [
+        "vigna",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/vigna.png",
+        "41% 5%"
+      ],
+      "myrrh": [
+        "myrrh",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/myrrh.png",
+        "52% 4%"
+      ],
+      "haze": [
+        "haze",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/haze.png",
+        "53% 4%"
+      ],
+      "gitano": [
+        "gitano",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/gitano.png",
+        "52% 4%"
+      ],
+      "rope": [
+        "rope",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/rope.png",
+        "52% 8%"
+      ],
+      "gravel": [
+        "gravel",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/gravel.png",
+        "47% 2%"
+      ],
+      "shaw": [
+        "shaw",
+        "specialist",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/shaw.png",
+        "46% 2%"
+      ],
+      "shirayuki": [
+        "shirayuki",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/shirayuki.png",
+        "42% 8%"
+      ],
+      "meteor": [
+        "meteor",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/meteor.png",
+        "53% 6%"
+      ],
+      "jessica": [
+        "jessica",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/jessica.png",
+        "49% 1%"
+      ],
+      "deepcolor": [
+        "deepcolor",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/deepcolor.png",
+        "48% 5%"
+      ],
+      "earthspirit": [
+        "earthspirit",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/earthspirit.png",
+        "49% 9%"
+      ],
+      "dobbermann": [
+        "dobbermann",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/dobbermann.png",
+        "53% 5%"
+      ],
+      "beehunter": [
+        "beehunter",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/beehunter.png",
+        "49% -2%"
+      ],
+      "frostleaf": [
+        "frostleaf",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/frostleaf.png",
+        "43% 28%"
+      ],
+      "mousse": [
+        "mousse",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/mousse.png",
+        "50% 4%"
+      ],
+      "matoimaru": [
+        "matoimaru",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/matoimaru.png",
+        "56% 6%"
+      ],
+      "cuora": [
+        "cuora",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/cuora.png",
+        "61% 2%"
+      ],
+      "gummy": [
+        "gummy",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/gummy.png",
+        "50% 0%"
+      ],
+      "matterhorn": [
+        "matterhorn",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/matterhorn.png",
+        "49% 3%"
+      ],
+      "greyy": [
+        "greyy",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/greyy.png",
+        "45% -1%"
+      ],
+      "sussurro": [
+        "sussurro",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/sussurro.png",
+        "48% 5%"
+      ],
+      "myrtle": [
+        "myrtle",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/myrtle.png",
+        "51% 26%"
+      ],
+      "vermeil": [
+        "vermeil",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/vermeil.png",
+        "51% 4%"
+      ],
+      "may": [
+        "may",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/may.png",
+        "40% 4%"
+      ],
+      "ambriel": [
+        "ambriel",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/ambriel.png",
+        "51% 4%"
+      ],
+      "utage": [
+        "utage",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/utage.png",
+        "51% 0%"
+      ],
+      "podenco": [
+        "podenco",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/podenco.png",
+        "51% 0%"
+      ]
+    },
+    "3s": {
+      "ansel": [
+        "ansel",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/ansel.png",
+        "51% 6%"
+      ],
+      "midnight": [
+        "midnight",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/midnight.png",
+        "51% 0%"
+      ],
+      "fang": [
+        "fang",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/fang.png",
+        "47% 6%"
+      ],
+      "vanilla": [
+        "vanilla",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/vanilla.png",
+        "72% -4%"
+      ],
+      "plume": [
+        "plum",
+        "vanguard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/plume.png",
+        "50% 17%"
+      ],
+      "hibiscus": [
+        "hibiscus",
+        "medic",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/hibiscus.png",
+        "51% 4%"
+      ],
+      "catapult": [
+        "catapult",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/catapult.png",
+        "50% 4%"
+      ],
+      "adnachiel": [
+        "adnachiel",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/adnachiel.png",
+        "52% 7%"
+      ],
+      "lava": [
+        "lava",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/lava.png",
+        "51% 4%"
+      ],
+      "steward": [
+        "steward",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/steward.png",
+        "52% 6%"
+      ],
+      "kroos": [
+        "kroos",
+        "sniper",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/kroos.png",
+        "46% 3%"
+      ],
+      "orchid": [
+        "orchid",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/orchid.png",
+        "47% 4%"
+      ],
+      "melantha": [
+        "melantha",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/melantha.png",
+        "44% 4%"
+      ],
+      "beagle": [
+        "beagle",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/beagle.png",
+        "48% 4%"
+      ],
+      "cardigan": [
+        "cardigan",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/cardigan.png",
+        "49% 4%"
+      ],
+      "popukar": [
+        "popukar",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/popukar.png",
+        "64% 2%"
+      ],
+      "spot": [
+        "spot",
+        "defender",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/spot.png",
+        "49% 0%"
+      ]
+    }
+  }
