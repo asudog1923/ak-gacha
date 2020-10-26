@@ -1,3 +1,7 @@
+/**
+* Arknights Gacha
+*
+*/
 body main {
     display: block;
     overflow-x: hidden;
@@ -101,6 +105,21 @@ body main {
     text-decoration: none;
     color: #000;
     background-color: #ac9725;
+}
+
+.summary {
+    width: 100%;
+    height: auto;
+    color: #000;
+    background-color: #bdbdbd;
+    padding: 10px 5px 10px 5px;
+}
+
+.result {
+    display: none;
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid #000;
 }
 
 #result {
@@ -229,7 +248,7 @@ footer {
     height: auto;
     display: block;
     color: #fff;
-    background-color: #adadad;
+    background-color: #9e9e9e;
     padding: 5px;
 }
 
@@ -246,6 +265,10 @@ footer {
 @media (max-width: 768px){
     .nav-item a {
         font-size: 0;
+    }
+
+    .nav-item a:hover {
+        font-size: 16px;
     }
 
     .nav-item a i {
