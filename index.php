@@ -8,10 +8,10 @@
 <html>
 
 <head>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="assets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arknights Gacha Simulator</title>
@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <nav class="navbar navbar-expand navbar-dark bg-dark mb-1">
-                    <a class="navbar-brand" href="#">Arknights Gacha Simulator</a>
+                    <a class="navbar-brand" href="index.php">Arknights Gacha Simulator</a>
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="https://github.com/ookamiiixd/ak-gacha" target="_blank" data-toggle="tooltip" title="Github repository"><i class="fab fa-github mr-1"></i>Github</a>
@@ -52,8 +52,8 @@
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <div id="debug-wrap" class="form-inline rounded btn-secondary px-1" data-toggle="tooltip"  title="By enabling debug mode, the gacha result will be detailed explained">
-                                <label class="mr-1" for="debug-mode">Debug Mode</label>
+                            <div id="debug-wrap" class="form-inline" data-toggle="tooltip"  title="By enabling debug mode, the gacha result will be detailed explained">
+                                <span id="debug-label" class="mr-2">Debug Mode</span>
                                 <input type="checkbox" class="form-control" id="debug-mode">
                             </div>
                         </li>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                     <div id="debug" class="result">
-                        <h5 class="mb-2" id="debug-title">Debug</h5>
+                        <h5 class="mb-2" id="debug-title">Disabled</h5>
                         <?php if($_SESSION['debug'] == 1) $gacha->sdebug($_SESSION['debug-data']) ?>
                     </div>
                 </div>

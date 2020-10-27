@@ -12,14 +12,13 @@ You can visit this [demo](https://demo.teamxproject.online/akgacha) if you don't
 ## Features
 
 - Banner swap.
-- Pity rate calculation.
+- Pity rate calculation (reset when pity triggered).
 - Total pull calculation (reset when pity triggered).
 
-Currently looking for a better way to make better looking on the gacha result.
 
 ## Usage
 
-To change operator's default rarity percentage, open and edit ``json/rate.json``.
+To change operator's default rarity percentage, open and edit ``json/rate.json``. Note : Currently this will return error when you change six stars percentage because there's too much condition checker that have to changed first, probably gonna do this next update.
 
 ```php
 {

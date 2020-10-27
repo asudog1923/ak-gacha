@@ -28,6 +28,23 @@ body main {
     margin: -15px auto 0 auto;
 }
 
+#debug-wrap {
+    border-radius: .25rem;
+    padding: 3px;
+    color: #5c5c5c;
+    background-color: #999999;
+}
+
+#debug-wrap:hover {
+    color: #9e9e9e;
+    background-color: #686868;
+}
+
+#debug-wrap #debug-label:hover,
+#debug-wrap #debug-mode:hover {
+    cursor: pointer;
+}
+
 #banner-wrapper {
     background: linear-gradient(323deg, #454545, #818080);
     background-size: 400% 400%;

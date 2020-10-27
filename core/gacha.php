@@ -80,10 +80,10 @@ Class Gacha{
 								$res = $this->ops['6s'][$re];
 								$res['featured'] = TRUE;
 							}
-						$result = $res;
-						break;
+							$result = $res;
+							break;
 						}
-					$rand2 -= $val;
+						$rand2 -= $val;
 					}
 				}
 				elseif($rarity == "5s"){
@@ -99,10 +99,10 @@ Class Gacha{
 								$res = $this->ops['5s'][$re];
 								$res['featured'] = TRUE;
 							}
-						$result = $res;
-						break;
+							$result = $res;
+							break;
 						}
-					$rand2 -= $val;
+						$rand2 -= $val;
 					}
 				}
 				elseif($rarity == "4s"){
@@ -115,13 +115,13 @@ Class Gacha{
 					$res = $this->ops['3s'][$key];
 					$result = $res;
 				}
-			array_push($result,$rarity);
-			break;
+				array_push($result,$rarity);
+				break;
 			}
-		$rand -= $percentage;
+			$rand -= $percentage;
 		}
-	$_SESSION['pull'] = ++$_SESSION['pull'];
-	return $result;
+		$_SESSION['pull'] = ++$_SESSION['pull'];
+		return $result;
 	}
 
 	//single pull gacha
@@ -129,7 +129,8 @@ Class Gacha{
 		unset($_SESSION['debug-data']);
 		$res = $this->doGacha();
 		echo '	<div class="wrap '.$this->rareconv[$res[4]].'">
-					<div class="operator" style="background-position: '.$res[3].'; background-image: url(\''.$res[2].'\');"></div>
+					<img src="'.$res[2].'" style="display: none;" class="op-load">
+					<div class="operator" style="background-position: '.$res[3].';"></div>
 					<img src="assets/img/class/'.$res[1].'.png" class="op-class">
 				</div>
 				'."\n";
@@ -160,7 +161,8 @@ Class Gacha{
 				}
 			}
 			echo '	<div class="wrap '.$this->rareconv[$res[4]].'">
-						<div class="operator" style="background-position: '.$res[3].'; background-image: url(\''.$res[2].'\');"></div>
+						<img src="'.$res[2].'" style="display: none;" class="op-load">
+						<div class="operator" style="background-position: '.$res[3].';"></div>
 						<img src="assets/img/class/'.$res[1].'.png" class="op-class">
 					</div>
 					'."\n";
@@ -192,13 +194,13 @@ Class Gacha{
 					echo '	<span class="mt-1">Result #'.$i.'</span>
 							<div class="row">
 								<div class="col-sm-5">Operator Name :</div>
-								<div class="col-sm-7">'.ucwords($key[0]).(isset($key['featured']) && $key['featured'] == 1 ? '&nbsp;(Featured)': '').'</div>
+								<div class="col-sm-6">'.ucwords($key[0]).(isset($key['featured']) && $key['featured'] == 1 ? '&nbsp;(Featured)': '').'</div>
 								<div class="col-sm-5">Operator Rarity :</div>
-								<div class="col-sm-7">'.$this->raretconv[$key[4]].'</div>
+								<div class="col-sm-6">'.$this->raretconv[$key[4]].'</div>
 								<div class="col-sm-5">Operator Class :</div>
-								<div class="col-sm-7">'.ucwords($key[1]).'</div>
+								<div class="col-sm-6">'.ucwords($key[1]).'</div>
 								<div class="col-sm-5">Operator Image Path :</div>
-								<div class="col-sm-7">'.$key[2].'</div>
+								<div class="col-sm-6">'.$key[2].'</div>
 							</div>
 							';
 					$i++;
@@ -207,13 +209,13 @@ Class Gacha{
 				echo '	<span>Result #1</span>
 						<div class="row">
 							<div class="col-sm-5">Operator Name :</div>
-							<div class="col-sm-7">'.ucwords($data[0]).(isset($data['featured']) && $data['featured'] == 1 ? '&nbsp;(Featured)': '').'</div>
+							<div class="col-sm-6">'.ucwords($data[0]).(isset($data['featured']) && $data['featured'] == 1 ? '&nbsp;(Featured)': '').'</div>
 							<div class="col-sm-5">Operator Rarity :</div>
-							<div class="col-sm-7">'.$this->raretconv[$data[4]].'</div>
+							<div class="col-sm-6">'.$this->raretconv[$data[4]].'</div>
 							<div class="col-sm-5">Operator Class :</div>
-							<div class="col-sm-7">'.ucwords($data[1]).'</div>
+							<div class="col-sm-6">'.ucwords($data[1]).'</div>
 							<div class="col-sm-5">Operator Image Path :</div>
-							<div class="col-sm-7">'.$data[2].'</div>
+							<div class="col-sm-6">'.$data[2].'</div>
 						</div>
 						';
 			}
