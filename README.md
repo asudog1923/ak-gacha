@@ -18,7 +18,9 @@ You can visit this [demo](https://demo.teamxproject.online/akgacha) if you don't
 
 ## Usage
 
-To change operator's default rarity percentage, open and edit ``json/rate.json``. Note : Currently this will return error when you change six stars percentage because there's too much condition checker that have to changed first, probably gonna do this next update.
+To change operator's default rarity percentage, open and edit ``json/rate.json``.
+
+Note : Currently this will return error when you change six stars percentage because there's too much condition checker that have to be changed first, probably gonna do this next update.
 
 ```php
 {

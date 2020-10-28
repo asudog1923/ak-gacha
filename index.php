@@ -44,10 +44,10 @@
                             <a class="nav-link" href="https://github.com/ookamiiixd/ak-gacha" target="_blank" data-toggle="tooltip" title="Github repository"><i class="fab fa-github mr-1"></i>Github</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://demo.teamxproject.online/akgacha/about.html" data-toggle="tooltip" title="About this project"><i class="fas fa-info-circle mr-1"></i>About</a>
+                            <a class="nav-link active" href="https://demo.teamxproject.online/akgacha/about.html" target="_blank" data-toggle="tooltip" title="About this project"><i class="fas fa-info-circle mr-1"></i>About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://demo.teamxproject.online/akgacha/contact.html" data-toggle="tooltip" title="Found a bug? report now"><i class="fas fa-bug mr-1"></i>Report bug</a>
+                            <a class="nav-link" href="https://demo.teamxproject.online/akgacha/contact.html" target="_blank" data-toggle="tooltip" title="Found a bug or have any suggestion? feel free to contact me"><i class="fas fa-envelope mr-1"></i>Contact</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
