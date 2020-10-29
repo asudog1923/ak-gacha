@@ -20,9 +20,16 @@
              "featured": 0
           },
           []
+       ],
+       "4s": [
+          {
+             "normal": 1,
+             "featured": 0
+          },
+          []
        ]
     },
-    "standard_pool_21_en": {
+    "standard_pool_21": {
        "6s": [
           {
              "normal": 0.5,
@@ -43,6 +50,43 @@
              "cliffheart",
              "waaifu"
           ]
+       ],
+       "4s": [
+          {
+             "normal": 1,
+             "featured": 0
+          },
+          []
        ]
-    }
+    },
+    "lisa_of_the_valley": {
+      "6s": [
+         {
+            "normal": 0.5,
+            "featured": 0.5
+         },
+         [
+            "suzuran"
+         ]
+      ],
+      "5s": [
+         {
+            "normal": 0.5,
+            "featured": 0.5
+         },
+         [
+            "ayerscape",
+            "nightmare"
+         ]
+      ],
+      "4s": [
+         {
+            "normal": 0.8,
+            "featured": 0.2
+         },
+         [
+            "click"
+         ]
+      ]
+   }
  }

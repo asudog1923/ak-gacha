@@ -131,6 +131,12 @@
         "sniper",
         "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/poca.png",
         "51% 13%"
+      ],
+      "suzuran": [
+        "suzuran",
+        "supporter",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/suzuran.png",
+        "51% 14%"
       ]
     },
     "5s": {
@@ -349,6 +355,12 @@
         "sniper",
         "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/sesa.png",
         "43% 8%"
+      ],
+      "ayerscape": [
+        "ayerscape",
+        "guard",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/ayerscape.png",
+        "49% 6%"
       ]
     },
     "4s": {
@@ -537,6 +549,12 @@
         "supporter",
         "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/podenco.png",
         "51% 0%"
+      ],
+      "click": [
+        "click",
+        "caster",
+        "https:\/\/github.com\/ookamiiixd\/ak-gacha\/raw\/master\/assets\/img\/characters\/click.png",
+        "59% 8%"
       ]
     },
     "3s": {

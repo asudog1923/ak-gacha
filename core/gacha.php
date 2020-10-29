@@ -106,9 +106,23 @@ Class Gacha{
 					}
 				}
 				elseif($rarity == "4s"){
-					$key = array_rand($this->ops['4s']);
-					$res = $this->ops['4s'][$key];
-					$result = $res;
+					foreach($_SESSION['banner']['4s'][0] as $key => $val){
+						if($rand2 < $val){
+							if($key == 'normal'){
+								$r = array_rand($this->ops['4s']);
+								$res = $this->ops['4s'][$r];
+								$res['featured'] = FALSE;
+							}elseif($key == 'featured'){
+								$r = array_combine($_SESSION['banner']['4s'][1], $_SESSION['banner']['4s'][1]);
+								$re = array_rand($r);
+								$res = $this->ops['4s'][$re];
+								$res['featured'] = TRUE;
+							}
+							$result = $res;
+							break;
+						}
+						$rand2 -= $val;
+					}
 				}
 				elseif($rarity == "3s"){
 					$key = array_rand($this->ops['3s']);

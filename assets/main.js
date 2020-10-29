@@ -2,15 +2,36 @@
 $('main').hide();
 $('.loader').fadeIn('fast');
 
+//banner name
+function bname(str){
+    var step = str.replaceAll('_', ' ');
+    var final;
+    final = step.toLowerCase().replace(/\b[a-z]/g, function(letter){
+        return letter.toUpperCase();
+    });
+    return final;
+}
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
     $('img').attr('draggable', 'false');
 
-    //set default banner image
-    $('#banner-select option').each(function(){
-        if($(this).val() == banner){
-            $(this).attr('selected', 'selected');
-            $('#banner').attr('src', 'assets/img/banner/'+$(this).val()+'.jpeg');
+    //fetch banner list
+    $.ajax({
+        url: 'setting.php?action=banner',
+        type: 'POST',
+        data: {'act': 'fetch'},
+        dataType: 'json',
+        success: function(response){
+            $.each(response, function(key, val){
+                $('#banner-select').append($("<option></option>").attr("value", val).text(bname(val))); 
+           });
+           //set default banner image
+            $('#banner-select option').each(function(){
+                if($(this).val() == banner){
+                    $(this).attr('selected', 'selected');
+                    $('#banner').attr('src', 'assets/img/banner/'+$(this).val()+'.jpeg');
+                }
+            });
         }
     });
 
@@ -79,7 +100,8 @@ $(document).ready(function(){
         e.preventDefault();
         $.ajax({
             url: 'setting.php?action=reset',
-            type: 'POST',
+            type: 'GET',
+            dataType: 'json',
             success: function(response){
                 if(response.message == 'redirect'){
                     window.location.href = 'index.php';

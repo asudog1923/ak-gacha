@@ -44,7 +44,7 @@
                             <a class="nav-link" href="https://github.com/ookamiiixd/ak-gacha" target="_blank" data-toggle="tooltip" title="Github repository"><i class="fab fa-github mr-1"></i>Github</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="https://demo.teamxproject.online/akgacha/about.html" target="_blank" data-toggle="tooltip" title="About this project"><i class="fas fa-info-circle mr-1"></i>About</a>
+                            <a class="nav-link" href="https://demo.teamxproject.online/akgacha/about.html" target="_blank" data-toggle="tooltip" title="About this project"><i class="fas fa-info-circle mr-1"></i>About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://demo.teamxproject.online/akgacha/contact.html" target="_blank" data-toggle="tooltip" title="Found a bug or have any suggestion? feel free to contact me"><i class="fas fa-envelope mr-1"></i>Contact</a>
@@ -62,10 +62,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-4 col-md-3 col-lg-2 mt-2">Select Banner</div>
-                        <select id="banner-select" class="col-sm-8 col-md-9 col-lg-10 form-control">
-                            <option value="newbie_banner">Newbie Banner</option>
-                            <option value="standard_pool_21_en">Standard Pool 21 (EN) [LIVE]</option>
-                        </select>
+                        <select id="banner-select" class="col-sm-8 col-md-9 col-lg-10 form-control"></select>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center mt-1 border-top" id="banner-wrapper">
