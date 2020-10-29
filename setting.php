@@ -13,7 +13,6 @@ if(isset($_GET)){
     }
     if($_GET['action'] == 'banner'){
         if(!empty($_POST['data'])) $gacha->chparam('banner', $_POST['data']);
-        $_POST['act'] = 'fetch';
         if($_POST['act'] == 'fetch'){
             $get = file_get_contents($host.'/json/banner.json');
             $data = json_decode($get, TRUE);
